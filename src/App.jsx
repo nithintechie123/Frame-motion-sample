@@ -5,8 +5,8 @@ const App = () => {
   return (
     <>
       <div className="flex h-[100vh] w-screen justify-center items-center bg-red-600 text-white">
-      <h1 className="text-8xl font-bold relative">
-        <div className="overflow-hidden h-[100px]">
+      <h1 className="text-5xl font-bold relative">
+        <div className="">
         {"Nithin Techie".split("").map((char, index) => (
           <motion.span
             key={index}
@@ -26,8 +26,8 @@ const App = () => {
       
     </div>
     <div className="flex h-[100vh] w-screen justify-center items-center bg-[#f1c40f]">
-      <h1 className="text-8xl font-bold relative">
-        <div className="h-[100px]">
+      <h1 className="text-5xl font-bold relative">
+        <div >
         {"Nithin Techie".split("").map((char, index) => (
           <motion.span
             key={index}
